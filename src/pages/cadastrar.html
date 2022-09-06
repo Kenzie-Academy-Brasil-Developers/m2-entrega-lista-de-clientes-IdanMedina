@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/styleBase.css">
+    <script defer src="../js/api.js" type="module"></script>
+    <script defer src="../js/asign.js" type="module"></script>
     <title>Entrega Lista de Clientes</title>
 </head>
 <body>
@@ -24,33 +26,33 @@
 
         <h3>Dados pessoais</h3>
 
-        <input type="text" name="nome" placeholder="digite seu nome"/>
+        <input type="text" id="name" name="nome" placeholder="digite seu nome"/>
 
-        <input type="text" name="email" placeholder="digite sua email"/>
+        <input type="text" id="email" name="email" placeholder="digite sua email"/>
 
-        <input type="number" name="idade" placeholder="digite sua idade"/>
+        <input type="number" id="age" name="idade" placeholder="digite sua idade"/>
 
-        <input type="text" name="cpf" placeholder="digite seu cpf"/>
+        <input type="text" id="cpf" name="cpf" placeholder="digite seu cpf"/>
 
-        <input type="text" name="sexo" placeholder="digite seu sexo"/>
+        <input type="text" id="sex" name="sexo" placeholder="digite seu sexo"/>
 
 
         <h3>Endereço</h3>
 
-        <input type="number" name="cep" placeholder="digite seu cep"/>
+        <input type="number" id="cep" name="cep" placeholder="digite seu cep"/>
         
-        <input type="text" name="rua" placeholder="digite sua rua"/>
+        <input type="text" id="street" name="rua" placeholder="digite sua rua"/>
 
-        <input type="number" name="numero" placeholder="digite o numero"/>
+        <input type="number" id="number" name="numero" placeholder="digite o numero"/>
 
-        <input type="text" name="bairro" placeholder="digite seu bairro"/>
+        <input type="text" id="borough" name="bairro" placeholder="digite seu bairro"/>
 
-        <input type="text" name="cidade" placeholder="digite sua cidade"/>
+        <input type="text" id="city" name="cidade" placeholder="digite sua cidade"/>
 
-        <input type="text" name="estado" placeholder="digite seu estado"/>
+        <input type="text" id="state" name="estado" placeholder="digite seu estado"/>
 
 
-        <button>Cadastrar</button>
+        <button type="submit" id="asignBtn">Cadastrar</button>
     </form>
 </body>
 </html>

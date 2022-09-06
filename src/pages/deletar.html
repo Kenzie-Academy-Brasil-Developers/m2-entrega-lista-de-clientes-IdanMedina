@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/styleBase.css">
+    <script defer src="../js/api.js" type="module"></script>
+    <script defer src="../js/delete.js" type="module"></script>
     <title>Entrega Lista de Clientes - Delete</title>
 </head>
 <body>
@@ -22,9 +24,9 @@
         
         <label for="cliente">Escolha o cliente que quer Deletar</label>
         
-        <select name="cliente" ></select>
+        <select name="cliente" id="delSlct"></select>
 
-        <button>Deletar</button>
+        <button id="delBtn" type="submit">Deletar</button>
     </form>
 
 </body>
